@@ -1,0 +1,9 @@
+.flexbox_container{
+    display: flex;
+    align-content: flex-start;
+}
+.flexbox_container .flexbox_item{
+    justify-content: right;
+    display: flex;
+    justify-content: flex-end;
+}

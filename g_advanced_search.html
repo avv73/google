@@ -2,16 +2,34 @@
 <html lang="en">
     <head>
         <title>Advanced search</title>
-        <link rel="stylesheet" href="positions.css">
+        <link rel="stylesheet" href="g_a_posotions.css">
     </head>
     <body>
-        <div style="text-align:center">
-            <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+        <p style="padding: 10px;">Find pages with...</p>
+        <div name="container" class="flexbox_container">
+            <form action="https://www.google.com/search?" method="get">
+                <p>all these words:</p>
+                <div class="flexbox_item"> 
+                    <input type="text" name="as_q">
+                </div>
+                <p>this exact word or phrase: </p>
+                <div class="flexbox_item">
+                    <input type="text" name="as_epq">
+                </div>
+                <p>any of these words: </p>
+                <div class="flexbox_item">
+                    <input type="text" name="as_oq">
+                </div>
+                <p>none of these words: </p>
+                <div class="flexbox_item">
+                    <input type="text" name="as_eq">
+                </div>          
+            
+                <input type="submit" value="Advanced Search">
             </form>
         </div>
         
-        <a id="normal_search" href="g_search.html">Google search</a>
+        
+        <a id="normal_search" href="g_search.html" style="position: absolute; right: 10px; top: 10px;">Google search</a>
     </body>
 </html>

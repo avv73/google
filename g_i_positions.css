@@ -1,0 +1,39 @@
+input[type="text"]{
+    position: absolute;
+    top: 40%;
+    left: 36%;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid aqua;
+    border-radius: 25px;
+    cursor: text;
+    text-align: left;
+    margin: auto;
+    width: 400px;
+}
+input[type="text"]:hover, input[type="text"]:focus{
+    outline: none;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+input[type="submit"]{
+    position: absolute;
+    top: 46%;
+    left: 47%;
+    padding: 5px;
+    border: 1px solid antiquewhite;
+    
+}
+input[type="submit"]:hover, input[type="submit"]:focus{
+    outline: none;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+#normal_search{
+    position: absolute;
+    right: 8px;
+}
+body{
+    font-size: small;
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+}
