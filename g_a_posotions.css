@@ -1,9 +1,55 @@
-.flexbox_container{
+.flexbox_container > form{
     display: flex;
-    align-content: flex-start;
+    flex-direction: column;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:11px;
+    margin-left: 20px;
 }
-.flexbox_container .flexbox_item{
-    justify-content: right;
-    display: flex;
-    justify-content: flex-end;
+.flexbox_container > form > .flexbox_item{
+    margin-left: 180px;
+    border: none;
+    outline: 0;
+    margin-top: -25px;
+    
+}
+input[type="submit"]{
+    margin-top: 20px;
+    margin-left: 366px;
+    width: 120px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(77, 144, 254);
+    color:rgb(255, 255, 255);
+    text-align:center;
+    
+}
+input[type="text"]{
+    border-radius: 1px;
+    border-left-color: rgb(217, 217, 217);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(217, 217, 217);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(192, 192, 192);
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(217, 217, 217);
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    width: 300px;
+}
+input[type="text"]:focus{
+    outline: none;
+    box-shadow: 0 0 5px steelblue;
+}
+input[type="submit"]:hover, input[type="submit"]:focus{
+    outline: none;
+    box-shadow: 0 0 5px steelblue;
+    
 }
