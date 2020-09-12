@@ -22,8 +22,19 @@
     cursor: pointer;
 }
 
+#image{
+    position: fixed;
+    top:100px;
+    text-align: center;
+}
+
+#image_src{
+    width: 10%;
+    height: 10%;
+}
+
 #input_field{
-    width: fit-content;
+    width: 60%;
     margin: auto;
     margin-top: 20%;
     padding: 12px;
